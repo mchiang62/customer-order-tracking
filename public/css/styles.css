@@ -23,6 +23,7 @@ body {
 
 .navbar {
   background-color: #13809e;
+  height: 50px;
 }
 
 #cs {
@@ -39,20 +40,32 @@ body {
   left: 649px;
   top: 9px;
   border: rgba(245, 247, 251, 0.2);
-  margin-right: 17px !important;
-
 }
 
 #aHatch {
-    margin-right: 34px;
-
+  margin-right: 34px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.02343px;
 }
-
 
 ::placeholder {
-    color:#ffffff !important;
+  color: #ffffff !important;
 }
 
-p{
-    margin: 0;
+header {
+  background-color: #f7f7f9;
+  height: 35px;
+}
+
+#head {
+  font-size: 13px;
+  letter-spacing: 1.194px;
+  text-transform: uppercase;
+  color: #13809E;
+}
+
+p {
+  margin: 0;
 }
