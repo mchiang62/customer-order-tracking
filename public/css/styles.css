@@ -54,16 +54,33 @@ body {
   color: #ffffff !important;
 }
 
-header {
+#headTwo {
   background-color: #f7f7f9;
   height: 35px;
+  margin-bottom: 15px;
 }
 
 #head {
   font-size: 13px;
   letter-spacing: 1.194px;
   text-transform: uppercase;
-  color: #13809E;
+  color: #13809e;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 1.70571px;
+  color: rgba(0, 0, 0, 0.88);
+  margin-bottom: 3px;
+}
+
+#createdBy {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.02343px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 p {
