@@ -85,4 +85,31 @@ h4 {
 
 p {
   margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.194px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background-image: url(./images/Shape.png) !important; /* Add custom arrow */
+  background-repeat: no-repeat !important;
+  background-position: right !important;
+  width: 98px;
+  height: 25px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.194px;
+}
+
+.row {
+    margin-bottom: 30px;
 }
