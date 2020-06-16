@@ -7,6 +7,9 @@ body {
   background-color: lightgray;
   width: 600px;
   padding: 3%;
+  background: #f7f7f9;
+  border: 0.5px solid #fffcfc;
+  border-radius: 6px;
 }
 
 #footer {
@@ -67,7 +70,7 @@ body {
   color: #13809e;
 }
 
-h4 {
+h4, h5 {
   font-size: 18px;
   line-height: 21px;
   /* identical to box height */
@@ -83,7 +86,8 @@ h4 {
   color: rgba(0, 0, 0, 0.8);
 }
 
-p, b {
+p,
+b {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
@@ -111,5 +115,5 @@ select {
 }
 
 .row {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
