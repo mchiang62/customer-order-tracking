@@ -83,7 +83,7 @@ h4 {
   color: rgba(0, 0, 0, 0.8);
 }
 
-p {
+p, b {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
