@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Tracking</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -37,13 +39,15 @@
         </nav>
 
         <div id="headTwo">
-            <p id="head"><b>DASHBOARD / TICKETS / </b> TICKET R2343</p>
+            <p class="head"><b class="head">DASHBOARD / TICKETS / </b> TICKET R2343</p>
         </div>
 
 
-        <div>
-            <h4>Ticket No. R23243</h4>
-            <p id="createdBy">Created by Ann Hatch 02/2/20 9:30am</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Ticket No. R23243</h4>
+                <p id="createdBy">Created by Ann Hatch 02/2/20 9:30am</p>
+            </div>
         </div>
 
         <hr>
@@ -51,44 +55,44 @@
 
         <div class="row">
             <div class="col-lg-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <p><b>Order No.</b></p>
-                        </div>
-                        <div class="col-lg-8">
-                            <p>3343</p>
-                        </div>
+                <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p><b>Order No.</b></p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <p><b>Priority</b></p>
-                        </div>
-                        <div class="col-lg-8">
-                            <select>
-                                <option value="Medium">Medium</option>
-                                <option value="Small">Small</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <p><b>Customer</b></p>
-                        </div>
-                        <div class="col-lg-8">
-                            <p>Mary Gallard</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <p><b>Issue</b></p>
-                        </div>
-                        <div class="col-lg-8">
-                            <p>Client called in upset about the order being delayed. Reassured her that the arrival date
-                                will be soon.</p>
-                        </div>
+                    <div class="col-lg-8">
+                        <p>3343</p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p><b>Priority</b></p>
+                    </div>
+                    <div class="col-lg-8">
+                        <select>
+                            <option value="Medium">Medium</option>
+                            <option value="Small">Small</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p><b>Customer</b></p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Mary Gallard</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p><b>Issue</b></p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Client called in upset about the order being delayed. Reassured her that the arrival date
+                            will be soon.</p>
+                    </div>
+                </div>
+                <!-- </div> -->
             </div>
 
             <div class="col-lg-7">
@@ -142,28 +146,23 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <h5>Item(s)</h5>
-                <br>
-                <p>(1x) $5.00 Renois Red Plaid Scarf</p>
-                <p>(2x) $5.00 Savoy Blue Striped Pants M</p>
-                <p>(1x) $2.95 Red Boat Neck Tee S</p>
+                <p class="items"><b class="items">(1x)</b> $5.00 Renois Red Plaid Scarf</p>
+                <p class="items"><b class="items">(2x)</b> $5.00 Savoy Blue Striped Pants M</p>
+                <p class="items"><b class="items">(1x)</b> $2.95 Red Boat Neck Tee S</p>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-7">
                 <div class="container">
-                    <div id="notes" class="row">
-                        <h5>Notes</h5>
-                        <br>
-                        <br>
-                        <textarea class="form-control" rows="3" id="chirp-box"
-                            placeholder="Writing something..."></textarea>
-                        <button class="btn btn-lg">Submit</button>
-                    </div>
+                    <h5>Notes</h5>
+                    <textarea class="form-control" placeholder="Writing something..."></textarea>
+                    <button type="submit" class="btn">SUBMIT</button>
                 </div>
             </div>
         </div>
 
         <footer id="footer"></footer>
+
     </div>
 
 
